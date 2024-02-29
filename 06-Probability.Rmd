@@ -38,7 +38,7 @@ To formalize probability theory, we first need to define a few terms:
 Now that we have those definitions, we can outline the formal features of a probability, which were first defined by the Russian mathematician Andrei Kolmogorov. These are the features that a value *has* to have if it is going to be a probability. Let's say that we have a sample space defined by N independent events, ${E_1, E_2, ... , E_N}$, and $X$ is a random variable denoting which of the events has occurred.  $P(X=E_i)$ is the probability of event $i$:
 
 - Probability cannot be negative: $P(X=E_i) \ge 0$
-- The total probability of all outcomes in the sample space is 1; that is,  if the , if we take the probability of each Ei and add them up, they must sum to 1. We can express this using the summation symbol $\sum$:
+- The total probability of all outcomes in the sample space is 1; that is, if we take the probability of each Ei and add them up, they must sum to 1. We can express this using the summation symbol $\sum$:
 $$
 \sum_{i=1}^N{P(X=E_i)} = P(X=E_1) + P(X=E_2) + ... + P(X=E_N) = 1
 $$
